@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Convenction-Center</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
@@ -49,21 +52,21 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="img/banner.png" class="d-block w-100 h-100 img-fluid" alt="...">
+                <img src="img/banner.png" class="d-block w-100 h-75 img-fluid" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>First slide label</h5>
                     <p>Some representative placeholder content for the first slide.</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="img/people.png" class="d-block w-100 h-100  img-fluid" alt="...">
+                <img src="img/people.png" class="d-block w-100 h-75  img-fluid" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Second slide label</h5>
                     <p>Some representative placeholder content for the second slide.</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="img/wedding.png" class="d-block w-100 h-100  img-fluid" alt="...">
+                <img src="img/wedding.png" class="d-block w-100 h-75  img-fluid" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Third slide label</h5>
                     <p>Some representative placeholder content for the third slide.</p>
@@ -82,27 +85,31 @@
         </button>
     </div>
 
-    <section class="weeding section d-flex justify-content-between container my-5">
-
-        <div class="weeding-img">
-            <img src="img/wedding.png" alt="" class="img-fluid ">
-        </div>
-        <div class="d-flex justify-content-center align-items-center w-50">
-            <div class="weed-text ms-2">
-                <h2>Every Moment is Precious</h2>
-                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
-                    duis
-                    enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                <button class="btn btn-primary">Explore Our Album</button>
+    <section class="weeding-section my-5">
+        <div class="container">
+            <div class="row">
+                <div class="weeding-img col-lg-6 col-sm-12">
+                    <img src="img/wedding.png" alt="" class="img-fluid ">
+                </div>
+                <div class="col-lg-6">
+                    <div class="weed-text ms-2">
+                        <h2>Every Moment is Precious</h2>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                            consequat
+                            duis
+                            enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        <button class="btn btn-primary">Explore Our Album</button>
+                    </div>
+                </div>
             </div>
         </div>
-
     </section>
     <!-- card  -->
     <section>
         <h2 class="text-center">Card Package</h2>
         <div class="container">
-            <div class="row gx-lg-3">
+
+            <div class="row ">
                 <div class="col-lg-3 border border-primary rounded p-3">
                     <h3>$3000</h3>
                     <h4>Business Fair</h4>
@@ -155,20 +162,23 @@
                     <button class="btn btn-primary rounded rounded-pill">chose plan</button>
                 </div>
             </div>
+
         </div>
     </section>
 
     <!-- card -->
-    <section>
-        <h2 class="text-center mx-4">Happy Client Sys</h2>
+    <section class="container">
+        <h2 class="text-center">Happy Client Sys</h2>
+
         <div class="container">
-            <div class="row">
-                <div class="col-lg-4 shadow-md">
+
+            <div class="row ms-3 py-3">
+                <div class="col-lg-4 col-sm-12 shadow-md">
                     <div class="card text-center" style="width: 18rem;">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
-                            <img src="img/person 1.png" class="card-img-top" alt="...">
+                            <img src="img/person 1.png" class="img-fluid" alt="...">
                             <h4 class="card-title">Jonson</h4>
                             <p class="text-muted">Banker</p>
                         </div>
@@ -176,12 +186,12 @@
                 </div>
 
 
-                <div class="col-lg-4 shadow-md">
+                <div class="col-lg-4 col-sm-12 shadow-md">
                     <div class="card text-center" style="width: 18rem;">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
-                            <img src="img/person 1.png" class="card-img-top" alt="...">
+                            <img src="img/person 1.png" class="img-fluid" alt="...">
                             <h4 class="card-title">Jonson</h4>
                             <p class="text-muted">Banker</p>
                         </div>
@@ -189,93 +199,126 @@
                 </div>
 
 
-                <div class="col-lg-4 shadow-md">
+                <div class="col-lg-4 col-sm-12 shadow-md">
                     <div class="card text-center" style="width: 18rem;">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
-                            <img src="img/person 1.png" class="card-img-top" alt="...">
+                            <img src="img/person 1.png" class="img-fluid" alt="...">
                             <h4 class="card-title">Jonson</h4>
                             <p class="text-muted">Banker</p>
                         </div>
                     </div>
                 </div>
+
             </div>
 
         </div>
-        </div>
+
     </section>
 
     <!-- alll -->
-    <section class="container mx-5">
-        <h2 class="text-center">
+    <section class="">
+        <h2 class="text-center px-5">
             Frequently Asked Questino
         </h2>
-        <div class="d-flex flex-column-sm justify-content-lg-between mt-5">
-            <div class="accordion w-50" id="accordionExample">
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Accordion Item #1
-                        </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the
-                            collapse plugin adds the appropriate classes that we use to style each element. These
-                            classes control the overall appearance, as well as the showing and hiding via CSS
-                            transitions. You can modify any of this with custom CSS or overriding our default variables.
-                            It's also worth noting that just about any HTML can go within the
-                            <code>.accordion-body</code>, though the transition does limit overflow.
+
+        <div class="container">
+            <div class="row">
+                <div class="accordion col-lg-6 col-sm-12" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Accordion Item #1
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the first item's accordion body.</strong> It is shown by default, until
+                                the
+                                collapse plugin adds the appropriate classes that we use to style each element. These
+                                classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables.
+                                It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Accordion Item #2
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                until
+                                the collapse plugin adds the appropriate classes that we use to style each element.
+                                These
+                                classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables.
+                                It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Accordion Item #3
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
+                                the
+                                collapse plugin adds the appropriate classes that we use to style each element. These
+                                classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables.
+                                It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Accordion Item #2
-                        </button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until
-                            the collapse plugin adds the appropriate classes that we use to style each element. These
-                            classes control the overall appearance, as well as the showing and hiding via CSS
-                            transitions. You can modify any of this with custom CSS or overriding our default variables.
-                            It's also worth noting that just about any HTML can go within the
-                            <code>.accordion-body</code>, though the transition does limit overflow.
-                        </div>
-                    </div>
+                <div class="al-img  col-lg-6 col-sm-12">
+                    <img class="img-fluid" src="img/people.png" alt="">
                 </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Accordion Item #3
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-                            collapse plugin adds the appropriate classes that we use to style each element. These
-                            classes control the overall appearance, as well as the showing and hiding via CSS
-                            transitions. You can modify any of this with custom CSS or overriding our default variables.
-                            It's also worth noting that just about any HTML can go within the
-                            <code>.accordion-body</code>, though the transition does limit overflow.
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="al-img w-50">
-                <img class="img-fluid" src="img/people.png" alt="">
             </div>
         </div>
+
     </section>
+
+
+    <footer class="bg-dark d-flex py-3  justify-content-center px-5 flex-column-sm">
+
+        <div class="row text-center d-flex justify-content-between">
+            <div class="col-lg-6 col-sm-12">
+                <p class="text-white">@2022| copyright by me.</p>
+            </div>
+
+            <div class="text-white col-lg-6 col-sm-12">
+                <h5>Get the app</h5>
+                <div>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
 
 
 
